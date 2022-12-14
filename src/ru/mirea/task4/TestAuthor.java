@@ -36,8 +36,8 @@ class Author {
 
 public class TestAuthor {
     public static void main(String[] args) {
-        Author objectAuthor = new Author("Иван", "", 'М');
-        objectAuthor.setEmail("vanya78@mail.ru");
+        Author objectAuthor = new Author("Наталья", "", 'Ж');
+        objectAuthor.setEmail("nataliagoryunova003@gmail.com");
         System.out.println(objectAuthor.toString());
     }
 }
